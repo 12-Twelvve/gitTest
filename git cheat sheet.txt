@@ -6,4 +6,19 @@ arguments to initialize the current directory as a git repository
 2. git clone https/ssh 
     Clone repo located at <repo> onto local machine. Original repo can be
 located on the local filesystem or on a remote machine via HTTP or SSH.
-3. 
+3. git config user.name <name>
+4. git add <directory>
+5. git commit -m  "<message>"
+6. git status
+7. git log
+
+
+>>>>>
+git branch
+git checkout -b <branch>
+
+>>>>>
+git remote add <name> <url>
+git fetch <remote> <branch>
+git pull <remote> <branch>
+git push <remote> <branch>
